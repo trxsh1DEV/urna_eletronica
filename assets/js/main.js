@@ -114,6 +114,7 @@ function confirmSend(){
         });
     };
 
+    // Get votes
     if(voteConfirmed){
         stageCurrent++;
         if(stages[stageCurrent]){
